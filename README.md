@@ -1,3 +1,5 @@
+
 //Update CSS Variables with JS
 The goal is to learn how tu use javascript to update CSS variables dynamically.This project is about adjusting the spacing around an image, change its blur effect and modify its base color using input controls.
 I learnt from this project that we can declare reusable CSS variables inside the :root selector making them available throughout the stylesheet. Unlike Javascript variables, CSS variables use two hyphens(--)instead of a dollar sign. I also learnt the difference between 'mousemove' and 'change'.The change event detects a change in the input value once the interaction is commited while mousemose allows the value to update as we move the mouse. And finally,I learned that the dataset property allows javascript to access custom HTML attributes starting with 'data-',to retrieve additional information .
+
