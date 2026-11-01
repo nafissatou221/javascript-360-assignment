@@ -1,0 +1,5 @@
+//Video Speed Controller UI
+The goal of this project is to control the speed of a video by moving the mouse up and down on a speed bar.
+First, I learned that when we already have an element stored in a variable, we can use `querySelector()` on that variable to find another element inside it,instead of using `document.querySelector()` to search the whole page. I also learned about the loop attribute which makes the video start playing again when it reaches the end. 
+Another new thing for me was `e.pageY`, which gives us vertical position of the mouse on the page. I also learned about `offsetTop` which tells us how far the speed bar is from the top of the page, and `offsetHeight`, which gives us the height of the speed bar. We use these values to know where the mouse is inside the speed bar.
+Finally, I learned about `playbackRate`, which controls how fast the video plays. For example, a value of 0.5 makes the video play more slowly, while a value of 2 makes it play twice fast. We use the mouse's position on the speed bar to change the playback speed, and the speed bar also shows the current speed.
